@@ -1,2 +1,1 @@
-# LetySoft
-Landing soft
+# LetyProject

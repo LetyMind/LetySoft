@@ -1,0 +1,378 @@
+$gray: #F7F6F6;
+$dark: #181817;
+$black: #23273A;
+$soft-white: #FBFBFB;
+$button: #22c6db;
+$bg-main: #272323;
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.btn-color
+{
+    background-color: $soft-white;
+}
+
+
+
+.fs-22
+{
+    font-size: 22px;
+}
+
+
+.h-45
+{
+    height: 45px;
+}
+
+
+
+.bg-main
+{
+    background: $bg-main;
+}
+
+
+
+ .bg-blue
+ {
+     background: $dark;
+ }
+
+
+.w-80
+{
+    width: 80%;
+}
+
+
+.fw-700
+{
+    font-weight: 700; 
+}
+
+
+
+
+
+@media screen and (min-width:992px)  
+{
+    .main-title
+    {
+        font-size: 3.75rem;
+        line-height: 1;
+    }
+
+
+    .fs-20
+    {
+        font-size: 22px;
+    }
+
+    .r-image
+    {
+        height: 35px;
+    }
+
+
+    .r-hw
+    {
+        height: 130px;
+        width: 130px;
+    }
+
+    
+    .w-16
+    {
+        width: 14%;
+    }
+
+
+    
+.hh-100
+{
+    height: 100vh;
+  //  background-image: linear-gradient(90deg, $blue 60%, #ffffff 50.1%);
+}
+
+
+}
+
+
+
+
+
+@media screen and (min-width:1200px)
+{
+   
+    .fs-20
+    {
+        font-size: 25px;
+    }
+
+    
+    .r-image
+    {
+        height: 45px;
+    }
+    
+    .fs-2-3
+    {
+        font-size: 2.3rem;
+    }
+
+     .main-title
+    {
+        font-size: 5rem;
+        line-height: 1;
+    }
+
+
+}
+
+
+@media screen and (min-width:1600px)
+{
+      .main-title
+    {
+        font-size: 5.4rem;
+        line-height: 1;
+    }
+
+}
+
+
+@media screen and (min-width:768px)
+{
+    
+    .iconos
+    {
+        height: 25px;
+        width: 25px;
+    }
+
+  .text-r-black
+    {
+        color: $black;
+    }
+
+}
+
+
+
+@media screen and (max-width:991px)
+{
+    .dd-none
+    {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width:767px)
+{
+
+    .rectangulo
+    {
+        border: 2px solid $soft-white;
+        padding: 4px 10px;
+    }
+
+    .btn-20px
+    {
+        font-size: 20px;
+    }
+    
+    .px-6
+    {
+        padding: 0 3.5rem;
+    }
+    
+    .pt-6
+    {
+          padding-top: 5rem;
+    }
+
+    .r-image
+    {
+        height: 45px;
+    }
+
+    .iconos
+    {
+        width: 7vw;
+    }
+
+    .r-hw
+    { 
+        width: 100%;
+    }
+
+    .fs-5
+    {
+        font-size: 4vw;
+    }
+
+
+    .fs-13
+    {
+        font-size: 3vw;
+    }
+
+    
+    .text-r-black
+    {
+        color: $soft-white;
+    }
+
+
+    .fs-1-2
+    {
+        font-size: 1.02rem;
+    }
+
+    .fs-1-85
+    {
+        font-size: 1.85rem;
+    }
+
+}
+
+
+
+
+.bg-gray-l
+{
+    background-color: $gray;
+}
+
+
+
+
+
+.c-black
+{
+    color: $black;
+}
+
+
+.bg-soft
+{
+    background-color: $soft-white;
+}
+
+
+
+
+.hola
+{
+    background-color: red;
+}
+
+
+.sticky
+{
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+
+
+.fs-18
+{
+    font-size: 18px;
+}
+
+ 
+.opacityOFF
+{
+    animation: opaOUT .5s linear;
+}
+ 
+
+.opacityON
+{
+    animation: opaon .5s linear forwards; 
+}
+
+ 
+@keyframes opaOUT
+{
+    from
+    {
+        background-color: $dark;
+    }
+
+    to
+    {
+        background-color: transparent;
+    }
+}
+
+ 
+
+@keyframes opaon
+{
+    from
+    {
+        background-color: transparent;
+    }
+
+    to
+    {
+        background-color: $dark;
+    }
+}
+
+
+
+.down
+{
+    animation: efecto 1.2s ease-in-out infinite alternate;
+}
+
+
+@keyframes efecto 
+{
+    from 
+    {
+        transform: translateY(0);
+    }
+
+    to
+    {
+        transform: translateY(19px);
+    }
+}
+
+
+
+.altura-100
+{
+    height: 100vh;
+    z-index: 999;
+    width: 100%;
+    background-color: $soft-white;
+    position: fixed;
+}
+
+
+.fs-24
+{
+    font-size: 25px;
+}
